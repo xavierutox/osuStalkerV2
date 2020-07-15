@@ -1,0 +1,21 @@
+.Main {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    font-size: 3rem;
+    font-weight: lighter;
+    border-bottom: 2px solid #DAA520;
+}
+
+.SubTitle {
+    padding-top: 25px;
+}
+
+.SubTitle span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-bottom: 2px solid #DAA520;
+}

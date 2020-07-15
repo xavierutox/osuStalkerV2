@@ -1,0 +1,78 @@
+body {
+  font-family: "Exo2", Exo2, "Ubuntu", Ubuntu, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.Navbar {
+  height: 5rem;
+  background-image: url("../media/triangle-overlay.png");
+  background-size: auto 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Navbar img {
+  max-height: 3.5rem;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  margin: auto 25px;
+  transform: translate(0, -0.35rem);
+}
+
+.MainPage {
+  background-color: #2d2d2d;
+}
+
+.Subtitle {
+  border-bottom: 2px solid #DAA520;
+}
+
+.Subtitle form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Subtitle form input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #6f6f6f;
+  color: white;
+  margin: auto 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.Subtitle form select {
+  background-color: #2d2d2d;
+  color: white;
+  border: none;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+#GrandContainer {
+  margin: 25px;
+}
+
+#Copyright {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 20px;
+}
+
+#Copyright a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+#SubmitButton {
+  background: #6f6f6f;
+  border-radius: 10000px;
+}

@@ -1,0 +1,81 @@
+.LargeText {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.MidTitle {
+    border-bottom: 2px solid #6f6f6f;
+}
+
+.MidText {
+    font-weight: lighter;
+}
+
+.SmallText {
+    font-size: 0.8rem;
+}
+
+.UserDisplay {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserImage {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.UserImage img {
+    border-radius: 20%;
+    border: 2px solid #6f6f6f;
+    padding: 5px;
+    height: 8rem;
+    width: 8rem;
+}
+
+.Slice1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 10px 10px;
+}
+
+.Slice1 img {
+    height: 1.25rem;
+    vertical-align: middle;
+}
+
+.Slice2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.Slice2 #Top, #Left, #Right {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.Slice2 #Bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Slice3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.Slice4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+}
