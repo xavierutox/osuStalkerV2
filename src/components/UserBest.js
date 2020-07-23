@@ -39,7 +39,7 @@ const ranks = {
 
 const apiLink = "https://osu.ppy.sh/api/"
 const mapData = "get_beatmaps?"
-const apiKey = "k=a79d9c01a3b012fc0c0bab91aaa7d09e8b76492b"
+const apiKey = "k=[apikey]"
 
 export default class UserBest extends Component {
     constructor(props) {
