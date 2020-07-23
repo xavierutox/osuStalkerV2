@@ -8,7 +8,7 @@ import "../styles/App.css"
 const apiLink = "https://osu.ppy.sh/api/"
 const userBest = 'get_user_best?'
 const userData = "get_user?"
-const apiKey = 'k=a79d9c01a3b012fc0c0bab91aaa7d09e8b76492b'
+const apiKey = 'k=[apikey]'
 
 const axios = require("axios")
 
